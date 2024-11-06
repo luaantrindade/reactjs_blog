@@ -1,0 +1,42 @@
+/* Style for the header */
+header {
+    background-color: #4CAF50;  /* Green background */
+    color: white;               /* White text */
+    padding: 20px;              /* Padding around the content */
+    text-align: center;         /* Center the text */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 24px;            /* Font size */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  header h1 {
+    margin: 0;                  /* Remove default margin */
+  }
+  
+  header nav {
+    margin-top: 15px;           /* Add space between the title and navigation */
+  }
+  
+  header nav a {
+    color: white;               /* White text */
+    text-decoration: none;      /* Remove underline */
+    margin: 0 15px;             /* Space between links */
+    font-size: 18px;            /* Font size */
+  }
+  
+  header nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #ddd;                /* Lighter text color on hover */
+  }
+  
+
+/* src/components/HomePage.css */
+.article {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+h1 {
+  text-align: center;
+}
