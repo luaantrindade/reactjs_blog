@@ -6,17 +6,17 @@ const Header = () => {
 
   return (
     <header className="bg-gradient-to-tr from-glassBlue to-glassPurple p-4 sm:px-8 sm:py-6 lg:p-4 xl:px-8 xl:py-6">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex justify-between items-center text-black">
         {/* Logo or Brand Name */}
-        <a href="#" className="text-black text-2xl font-bold">
+        <a href="#" className="hover:text-green-500 text-2xl font-bold">
           Me.
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="flex-auto justify-center hidden md:flex space-x-8 items-center text-black">
-          <a href="#about" className="hover:text-gray-300">Blog</a>
-          <a href="#services" className="hover:text-gray-300">Services</a>
-          <a href="#contact" className="hover:text-gray-300">Contact</a>
+        <nav className="flex justify-end hidden md:flex space-x-8 items-center text-black">
+          <a href="#about" className="hover:text-green-500">Blog</a>
+          <a href="#services" className="hover:text-green-500">Services</a>
+          <a href="#contact" className="hover:text-green-500">Contact</a>
 
           {/* Search Field for Desktop */}
           <div className="relative text-gray-600">
@@ -31,6 +31,7 @@ const Header = () => {
               </svg>
             </button>
           </div>
+          <a className="flex justify-end icon-btn backdrop-brightness-90 p-3 w-100 bg-glassPurple hover:bg-gradient-to-bl from-amber-500 to-pink-500 font-thin rounded-full cursor-pointer ">write+</a>
         </nav>
 
         {/* Mobile Icons: Search and Hamburger Menu */}
