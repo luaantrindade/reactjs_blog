@@ -1,5 +1,4 @@
 node_modules
 
-
 # Except the build folder
 !build/**
