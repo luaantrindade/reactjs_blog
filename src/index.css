@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -14,4 +14,42 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@400;700&display=swap');
+
+/* Example in your CSS file or within Tailwind's `@layer` syntax */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #1A202C; /* Dark background */
+  color: #edf2f7; /* Dark text */
+}
+
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f8fa; /* Light background */
+  color: #333333; /* Dark text color */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button Styling */
+.btn {
+  @apply font-bold py-2 px-4 rounded-lg shadow-lg transition-all duration-300;
+  background: linear-gradient(135deg, #5A8DEE, #F59E42); /* Soft gradient button */
+  color: white;
+}
+
+/* Card Styling */
+.card {
+  @apply p-6 rounded-lg shadow-card transition-all duration-300;
+  background-color: #ffffff; /* Plain white for card background */
 }
