@@ -11,6 +11,7 @@ import Write from "./pages/Write";
 import Contact from "./pages/Contact";
 import DarkModeProvider, { useDarkMode } from './components/DarkModeContext';
 
+
 const App = () => {
   const { darkMode, toggleDarkMode } = useDarkMode();
 

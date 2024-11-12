@@ -1,14 +1,19 @@
 // src/components/HomePage.js
 import React from 'react';
 import Entry from '../components/Entry';
+import { BackgroundGradientAnimationDemo } from '../components/BackgroundGradientDemo';
 
 function HomePage() {
 
   return (
-    <div className='border-black border-spacing-1 m-10'>
-      <Entry />
+    <div className=' '>
+      <section><BackgroundGradientAnimationDemo/></section>
+      <section><Entry /></section>
+
     </div>
   );
 }
 
 export default HomePage;
+
+

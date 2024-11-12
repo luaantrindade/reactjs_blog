@@ -1,21 +1,22 @@
 // EntryCard.js
 import React from 'react';
-import profilePic from '../assets/images/logo192-.png'; // Update with your actual image path
+import FlipWordsDemo  from './FlipWordsDemo';
 
 const Entry = () => {
-  const skills = [
-    'JavaScript',
-    'React',
-    'Node.js',
-    'AWS',
-    'CSS & Tailwind',
-    'Problem Solving',
-    'Communication'
-  ];
+  // const skills = [
+  //   'JavaScript',
+  //   'React',
+  //   'Node.js',
+  //   'AWS',
+  //   'CSS & Tailwind',
+  //   'Problem Solving',
+  //   'Communication'
+  // ];
 
   return (
-    <div className=" mx-auto p-6 rounded-lg shadow-lg  text-center">
-      <div className="flex flex-col items-center">
+    <div className="  rounded-lg text-left">
+      <div><FlipWordsDemo></FlipWordsDemo></div>
+      {/* <div className="flex flex-col items-center">
         <img src={profilePic} alt="Profile" className="w-24 h-24 rounded-full mb-4" />
         <h1 className="text-2xl font-semibold mb-2">Luan Trindade</h1>
         <p className="text-base mb-4">
@@ -32,7 +33,7 @@ const Entry = () => {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };

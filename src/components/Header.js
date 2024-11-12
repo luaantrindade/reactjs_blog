@@ -13,7 +13,7 @@ const Header = ({ toggleDarkMode, darkMode }) => {
   };
 
   return (
-    <header className="bg-gradient-to-tr from-glassBlue to-glassPurple p-4 sm:px-8 sm:py-6 lg:p-4 xl:px-8 xl:py-6">
+    <header className="unset sticky top-0 justify-center z-50 bg-gradient-to-tr from-glassBlue to-glassPurple p-4 sm:px-8 sm:py-6 lg:p-4 xl:px-8 xl:py-6">
       <div className="container mx-auto flex justify-between items-center text-black dark:text-white">
         {/* Logo or Brand Name */}
         <a href="home" className="hover:text-green-500 text-2xl font-bold transition ease-in-out duration-300">
@@ -21,7 +21,7 @@ const Header = ({ toggleDarkMode, darkMode }) => {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="flex justify-between items-center space-x-8 hidden md:flex">
+        <nav className="z-1 flex justify-between items-center space-x-8 hidden md:flex">
           <a href="blog" className="hover:text-green-500 transition ease-in-out duration-300">Blog</a>
           <a href="services" className="hover:text-green-500 transition ease-in-out duration-300">Services</a>
           <a href="contact" className="hover:text-green-500 transition ease-in-out duration-300">Contact</a>
