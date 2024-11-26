@@ -1,4 +1,3 @@
-// tailwind.config.js
 const { fontFamily } = require("tailwindcss/defaultTheme");
 
 module.exports = {
@@ -7,20 +6,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "#f7f8fa", // Soft light gray for background
-        primaryText: "#333333", // Dark charcoal for primary text
-        accent: "#5A8DEE", // Soft blue for primary accents
-        secondaryAccent: "#F59E42", // Warm apricot for highlights
+        background: "#f7f8fa", // Light green for background
+        primaryText: "#2C3E50", // Dark blue for primary text
+        accent: "#6A5ACD", // Soft purple for primary accents
+        secondaryAccent: "#32CD32", // Vibrant green for highlights
         cardBg: "#ffffff", // Plain white for card backgrounds
-        gradientStart: "#BEE3F8", // Light blue for gradients
-        gradientEnd: "#C3DAFE", // Soft lavender for gradients
+        gradientStart: "#6A5ACD", // Soft purple for gradients
+        gradientEnd: "#00CED1", // Aqua blue for gradients
       },
       fontFamily: {
         sans: ["Poppins", ...fontFamily.sans],
-        heading: ["Playfair Display", ...fontFamily.sans],
+        heading: ["Poppins", ...fontFamily.sans],
       },
       backgroundImage: {
-        "gradient-bg": "linear-gradient(135deg, #BEE3F8, #C3DAFE)", // Light gradient for hero sections
+        "gradient-bg": "linear-gradient(135deg, #6A5ACD, #32CD32)", // Purple-to-green gradient
       },
       boxShadow: {
         card: "0 4px 10px rgba(0, 0, 0, 0.08)",

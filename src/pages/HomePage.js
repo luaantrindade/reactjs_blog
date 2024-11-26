@@ -1,14 +1,16 @@
 // src/components/HomePage.js
 import React from 'react';
-import Entry from '../components/Entry';
+import ServicesSection from '../components/ServicesSection';
 import { BackgroundGradientAnimationDemo } from '../components/BackgroundGradientDemo';
+import BlogSection from '../components/BlogSection';
 
 function HomePage() {
 
   return (
-    <div className=' '>
+    <div className=''>
       <section><BackgroundGradientAnimationDemo/></section>
-      <section><Entry /></section>
+      <section><ServicesSection /></section>
+      <section><BlogSection /></section>
 
     </div>
   );
